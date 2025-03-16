@@ -11,6 +11,7 @@ import type { Route } from "./+types/root";
 import "./app.css";
 
 export const links: Route.LinksFunction = () => [
+  { rel: "icon", type:"image/svg+xml", href: "/academflowlogo.svg" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
@@ -42,7 +43,19 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return(
+    <div className="w-full min-h-screen bg-white">
+      <header className="w-full flex justify-center h-20 bg-white border border-b-blue-600">
+        <div className="flex w-full justify-between items-center max-w-7xl bg-red-500 p-5">
+          <div className="w-1/2 flex items-center justify-between border">
+            <div>Logo</div>
+            <nav>Navigation</nav>
+          </div>
+          <div>Call to action buttons</div>
+        </div>
+      </header>
+      <Outlet />
+    </div>);
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
