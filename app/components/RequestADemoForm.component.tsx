@@ -48,10 +48,10 @@ export default function RequestADemoForm({closeRequestADemoFormCallToAction}:Req
         return
     }
     return(
-        <PortalModal portalHeight="h-screen">
-            <section className="relative flex flex-col justify-between bg-white w-[60vw] font-semibold text-[#31859c] p-5 gap-5">
-                <div className="flex justify-between items-center px-5">
-                    <div className="flex items-center text-lg text-gray-800 p-5 bg-[#f8f9f3] rounded-2xl gap-5">
+        <PortalModal portalHeight="h-screen" animationClass="w-11/12 3xs:max-md:w-10/12 animate-slide-in-up">
+            <section className="w-full relative flex flex-col justify-between bg-white font-semibold text-[#31859c] p-5 gap-5">
+                <div className="flex justify-between items-center sm:max-md:px-5 md:px-20">
+                    <div className="flex items-center text-lg text-gray-800 p-2 sm:p-5 bg-[#f8f9f3] rounded-2xl gap-5">
                         Product Demo 
                     </div>
                     <ButtonMiscelleneous
@@ -59,16 +59,17 @@ export default function RequestADemoForm({closeRequestADemoFormCallToAction}:Req
                         buttonTitle={"Close"}
                         buttonType="button"
                         borderRadius="rounded-3xl"
-                        className="bg-black text-white h-14"
+                        className="bg-black text-white"
                         disabled={fetcherIsBusy}
                         callToActionFn={closeRequestADemoFormCallToAction}
                     />
                 </div>
-                <form onSubmit={submitRequestDemoFormDataFn} action="" className="w-full flex flex-col gap-3 px-20">
+                <form onSubmit={submitRequestDemoFormDataFn} action="" className="w-full flex flex-col gap-3 sm:max-md:px-5 md:px-20">
                     <InputForm
                         inputId="schoolName_form_input"
                         labelTitle="School Name*"
                         name="schoolName"
+                        placeholderText="Name of School"
                         inputType="text"
                         isTextArea={false}
                         handleChangeFn={handleChangeFn}
@@ -79,6 +80,7 @@ export default function RequestADemoForm({closeRequestADemoFormCallToAction}:Req
                         inputId="address_form_input"
                         labelTitle="School Address*"
                         name="schoolAddress"
+                        placeholderText="School location address"
                         inputType="text"
                         isTextArea={false}
                         handleChangeFn={handleChangeFn}
@@ -90,17 +92,19 @@ export default function RequestADemoForm({closeRequestADemoFormCallToAction}:Req
                         labelTitle="Contact Person Name*"
                         name="name"
                         inputType="text"
+                        placeholderText="Full Name"
                         isTextArea={false}
                         handleChangeFn={handleChangeFn}
                         required={requiredField && !requestDemoFormData.name}
                         disabled={fetcherIsBusy}
                     />
-                    <div className="flex gap-5 pb-5">
+                    <div className="flex max-md:flex-col flex-row gap-5 pb-5">
                         <InputForm
                             inputId="mobileNumber_form_input"
                             labelTitle="Contact Person Phone Number*"
                             name="mobileNumber"
                             inputType="text"
+                            placeholderText="Phone Number"
                             isTextArea={false}
                             handleChangeFn={handleChangeFn}
                             required={requiredField && !requestDemoFormData.mobileNumber}
@@ -111,6 +115,7 @@ export default function RequestADemoForm({closeRequestADemoFormCallToAction}:Req
                             labelTitle="Contact Person Email*"
                             name="email"
                             inputType="text"
+                            placeholderText="Email Address"
                             isTextArea={false}
                             handleChangeFn={handleChangeFn}
                             required={requiredField && !requestDemoFormData.email}
