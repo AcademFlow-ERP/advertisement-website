@@ -1,0 +1,1 @@
+export { default as useCloseOnOutsideClicks } from "./useCloseOnOutsideClicks.hook"
