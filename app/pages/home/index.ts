@@ -1,0 +1,6 @@
+export { default as FortressLevelSecurityHome} from "./FortressLevelSecurity.home"
+export { default as OnboardOnAdvancePlatformHome } from "./OnboardOnAdvancePlatform.home"
+export { default as AcademflowPromisesHome } from "./AcademflowPromises.home"
+export { default as DoMoreWithLessHome } from "./DoMoreWithLess.home"
+export { default as ExploreProductsHome } from "./ExploreProducts.home"
+export { default as WelcomeHome } from "./Welcome.home"
