@@ -24,8 +24,10 @@ export default function ExploreProductFeaturesWidget({productFeatureCollections,
     return(
         <section className="w-full relative flex flex-col items-center justify-center max-sm:px-0 lg:max-xl:px-5 p-15 text-[#31859c]">
             <div className="flex flex-col justify-center items-center max-w-7xl lg:max-xl:px-0 px-5 py-5 gap-5">
-                <h4 className="text-xl max-w-4xl font-poppins font-medium text-center text-gray-400">{softwareName}</h4> 
-                <h1 className="text-3xl sm:text-4xl max-w-4xl font-poppins font-bold text-center capitalize text-gray-800">{productFeatureCollectionsDescription}</h1> 
+                <div className="flex flex-col gap-1 sm:gap-5">
+                    <h4 className="text-base sm:text-xl max-w-4xl font-poppins font-medium text-center text-gray-400">{softwareName}</h4> 
+                    <h1 className="text-2xl sm:text-4xl max-w-4xl font-poppins font-bold text-center capitalize text-gray-800">{productFeatureCollectionsDescription}</h1> 
+                </div>
                 <div className="w-full relative flex flex-col lg:flex-row items-center py-10 xl:px-10 gap-2 xl:gap-16 text-gray-600">
                     <nav className="w-full lg:w-1/2 flex flex-col">
                         <ul className="w-full flex flex-col text-xl font-bold gap-3">
