@@ -13,11 +13,11 @@ type Props = {
   const AppModal = ({children, portalHeight, modalPosition, animationClass, modalBlurClass, portalBgColorClass, modalShadow }:Props) => {
     
     return(
-        <div className={`fixed top-0 right-0 left-0 w-full h-screen z-40 flex ${modalPosition == `CENTER`? `justify-center`: modalPosition == `END` ? `justify-end`:`justify-center`} items-center ${modalBlurClass??''} ${portalBgColorClass??`bg-[#14141467]`}`}>
+        <div className={`fixed top-0 right-0 left-0 w-full h-screen z-40 flex ${modalPosition == `CENTER`? `justify-center`: modalPosition == `END` ? `3xs:justify-end`:`justify-center`} items-end 3xs:items-center ${modalBlurClass??''} ${portalBgColorClass??`bg-[#14141467]`}`}>
             <div className={`${animationClass??`animate-slide-in-up`} flex flex-col
                 ${portalHeight?? `h-[95vh]`}
                 ${modalShadow?? `nav_shadow`}
-                overflow-y-auto overflow-x-hidden rounded-2xl bg-white ${modalPosition == `END` && `mr-5`}`}>
+                overflow-y-auto overflow-x-hidden rounded-t-3xl 3xs:rounded-2xl bg-white ${modalPosition == `END` ? `3xs:mr-5`:``}`}>
             {children}
           </div>
         </div>

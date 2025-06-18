@@ -36,46 +36,46 @@ const academflowPromiseCollectionSummary = [
         icon:<FaBrain fontSize={50}/>,
     }
 ]
-const academflowSuccessList:AcademflowSuccess[] = [
+
+// let counterIndex = 0
+export default function DoMoreWithLessHome(){
+    const academflowSuccessList:AcademflowSuccess[] = [
     {
         id:"unify-your-institution",
         name:"Unify Your Institution",
         content:"Foster a unified institution where everyone feels connected and engaged.",
-        icon:<BiNetworkChart fontSize={50}/>,
+        icon:<BiNetworkChart fontSize={50} className="max-sm:size-6 sm:max-md:size-8"/>,
         promises:[academflowPromiseCollectionSummary[0].id]
+    },
+    {
+        id:"drive-parent-student-engagement",
+        name:"Drive student engagement and success",
+        content:"Enhance parents and students' engagement and boost success and happiness.",
+        icon:<PiStudent fontSize={50} className="max-sm:size-6 sm:max-md:size-8"/>,
+        promises:[academflowPromiseCollectionSummary[0].id, academflowPromiseCollectionSummary[2].id]
     },
     {
         id:"save-time-and-cost",
         name:"Save time and cost",
         content:"Simplify management processes to save time, cut costs, and bring peace of mind.",
-        icon:<TbClockShield fontSize={50}/>,
+        icon:<TbClockShield fontSize={50} className="max-sm:size-6 sm:max-md:size-8"/>,
         promises:[academflowPromiseCollectionSummary[2].id, academflowPromiseCollectionSummary[3].id]
     },
     {
         id:"elevate-your-institution-brand",
         name:"Elevate your institution brand",
         content:"Strengthen your brand by ensuring overall trust and security.",
-        icon:<GrOrganization fontSize={50}/>,
+        icon:<GrOrganization fontSize={50} className="max-sm:size-6 sm:max-md:size-8"/>,
         promises:[academflowPromiseCollectionSummary[1].id, academflowPromiseCollectionSummary[2].id]
-    },
-    {
-        id:"drive-parent-student-engagement",
-        name:"Drive student engagement and success",
-        content:"Enhance parents and students' engagement and boost success and happiness.",
-        icon:<PiStudent fontSize={50}/>,
-        promises:[academflowPromiseCollectionSummary[0].id, academflowPromiseCollectionSummary[2].id]
     },
     {
         id:"grow-revenue",
         name:"Grow revenue",
         content:"Drive growth for overall ROI and happiness.",
-        icon:<TfiBarChart fontSize={50}/>,
+        icon:<TfiBarChart fontSize={50} className="max-sm:size-6 sm:max-md:size-8"/>,
         promises:[academflowPromiseCollectionSummary[2].id, academflowPromiseCollectionSummary[3].id]
     },
-]
-
-// let counterIndex = 0
-export default function DoMoreWithLessHome(){
+    ]
     const [academflowSuccess, setAcademflowSuccess] = useState<AcademflowSuccess>(academflowSuccessList[0])
     useEffect(()=>{
         let counterIndex = 0
@@ -93,15 +93,15 @@ export default function DoMoreWithLessHome(){
 
     return(<section className="w-full relative flex flex-col items-center justify-center sm:p-15 text-[#31859c] bg-[#f6f6f6]">
         <div className="max-lg:w-full flex flex-col justify-center items-center max-w-7xl max-sm:py-20 px-5 py-5 gap-8">
-            <h1 className="text-3xl sm:text-4xl max-w-4xl font-poppins font-bold text-center">With Academflow, Do More With Less.</h1> 
+            <h1 className="flex text-2xl 3xs:max-sm:text-3xl sm:text-4xl max-w-4xl font-inter 3xs:font-poppins font-black 3xs:font-bold text-center px-4">With Academflow, Do More With Less.</h1> 
             <div className="w-full flex flex-col lg:flex-row items-center gap-8 lg:gap-0">
-                <ul className="w-full lg:w-1/4 flex lg:flex-col text-gray-600 gap-5 overflow-x-auto overflow-y-hidden">
+                <ul className="w-full lg:w-1/4 flex lg:flex-col text-gray-600 md:gap-5 overflow-x-auto overflow-y-hidden">
                     {
                         academflowSuccessList.map((item, index) =>(
-                            <li onClick={()=>setAcademflowSuccess(item)} className={`relative max-lg:min-w-3xs flex flex-1 gap-2 items-center border-b-6 py-3 cursor-pointer px-4 ${academflowSuccess.id == item.id ? 'border-[#f495b7] text-[#f495b7]':' border-transparent'}`} key={item.id+index}>
+                            <li onClick={()=>setAcademflowSuccess(item)} className={`relative md:max-lg:min-w-3xs flex max-md:flex-col max-md:justify-center max-md:min-w-[200px] flex-1 gap-2 items-center border-b-6 py-3 cursor-pointer px-4 ${academflowSuccess.id == item.id ? 'border-[#f495b7] text-[#f495b7]':' border-transparent'}`} key={item.id+index}>
                                 <TbRectangleVerticalFilled  className={`absolute -bottom-[0.65rem] text-[#f495b7] ${academflowSuccess.id == item.id ? 'flex': 'hidden'}`}/>
                                 <span>{item.icon}</span>
-                                <span className="text-sm lg:text-lg">{item.name}</span>
+                                <span className="text-sm lg:text-lg max-md:text-center">{item.name}</span>
                             </li>
                         ))
                     }

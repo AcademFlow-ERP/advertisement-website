@@ -10,21 +10,21 @@ export default function FortressLevelSecurityHome() {
   const [scheduleADemo, setScheduleADemo]=useState(false)
   return (
     <>
-      <section className="w-full relative flex flex-col items-center justify-center p-5 md:p-10 lg:p-20 text-white">
-        <div className="flex flex-col w-full justify-center items-center max-w-7xl max-sm:px-10 p-20 md:p-15 lg:p-20 gap-20 gradient-bg-security rounded-4xl">
+      <section className="w-full relative flex flex-col items-center justify-center py-5 px-5 md:p-10 lg:p-20 text-white">
+        <div className="flex flex-col w-full justify-center items-center max-w-7xl min-3xs:max-sm:px-10 py-20 md:p-15 lg:p-20 gap-20 gradient-bg-security rounded-4xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-6 pb-10 lg:pt-10">
               <div className="flex flex-col max-sm:items-center gap-5">
-                  <h1 className="text-3xl max-sm:px-10 sm:text-4xl font-poppins font-bold text-center md:text-start">Fortress Level Security</h1> 
-                  <p className="text-xl max-sm:max-w-[20rem] max-w-4xl text-center md:text-start">Protect your school data with our GDPR-compliant platform. We offer enterprise-grade security, multi-factor authentication, and continuous monitoring for uncompromising security.</p>
+                  <h1 className="text-2xl max-sm:px-10 sm:text-4xl 3xs:font-poppins font-inter font-black 3xs:font-bold text-center md:text-start">Fortress Level Security</h1> 
+                  <p className="2xs:text-xl max-sm:max-w-[20rem] max-w-4xl text-center md:text-start max-2xs:px-10">Protect your school data with our GDPR-compliant platform. We offer enterprise-grade security, multi-factor authentication, and continuous monitoring for uncompromising security.</p>
               </div>
-              <div className="flex gap-5">
-                  <div className="flex flex-col justify-center items-center bg-white p-6 rounded-4xl gap-10 min-w-40">
-                      <img loading="lazy" src={gdprLogo} alt={`GDPR`} title="GDPR"/>
-                      <span className="text-center text-black font-medium"><b>GDPR</b> Compliant</span>
+              <div className="flex gap-3 3xs:gap-5">
+                  <div className="flex flex-col flex-1 justify-center items-center bg-white p-3 min-3xs:p-6 rounded-4xl gap-5 3xs:gap-10 min-3xs:min-w-40">
+                      <img className="max-3xs:size-16" loading="lazy" src={gdprLogo} alt={`GDPR`} title="GDPR"/>
+                      <span className="flex flex-col max-3xs:text-xs text-center text-black font-medium px-2"><b>GDPR</b> Compliant</span>
                   </div>
-                  <div className="flex flex-col justify-between items-center bg-white p-5 rounded-4xl gap-10 min-w-40">
-                      <GrSecure fontSize={40} className="text-[#31859c]"/>
-                      <span className="text-center text-black font-medium"><b>Multi-Factor</b> Auth</span>
+                  <div className="flex flex-col flex-1 justify-between items-center bg-white p-3 min-3xs:p-5 rounded-4xl gap-5 3xs:gap-10 min-3xs:min-w-40">
+                      <GrSecure fontSize={40} className="text-[#31859c] max-3xs:size-10"/>
+                      <span className="flex flex-col max-3xs:text-xs text-center text-black font-medium px-2"><b>Multi-Factor</b> Auth</span>
                   </div>
               </div>
           </div>
@@ -37,8 +37,8 @@ export default function FortressLevelSecurityHome() {
                   </div>
                 </div>
               </div>
-                <h1 className="text-3xl sm:text-4xl font-poppins font-bold text-center max-w-xl">See how your school can work better with AcademFlow</h1> 
-                <p className="text-xl max-w-[33rem] text-center">I want a secured staff and student identity system, better fee management system, and result system that works.</p>
+                <h1 className="text-2xl 3xs:max-sm:text-3xl sm:text-4xl font-poppins font-bold text-center max-w-xl max-3xs:px-4">See how your school can work better with AcademFlow</h1> 
+                <p className="text-base min-sm:text-xl max-w-[33rem] text-center px-4">I want a secured staff and student identity system, robust fee management solution and result system that works.</p>
             </div>
             <ButtonMiscelleneous
                 buttonIcon={<IoArrowForward fontSize={24} className=" p-px bg-[#ffffff33] rounded-full"/>}

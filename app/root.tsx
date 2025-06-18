@@ -12,7 +12,7 @@ import {
   useNavigate,
   useNavigation,
 } from "react-router";
-import { useMemo, useRef, useState, type RefObject } from "react";
+import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import RequestADemoForm from "./components/RequestADemoForm.component";
 import { ButtonMiscelleneous, ButtonSelectModern } from "./components/buttons";
 import type { Route } from "./+types/root";
@@ -30,6 +30,7 @@ import { useCloseOnOutsideClicks } from "./hooks";
 import { IsBusyIcon } from "./icons";
 import { VscMenu } from "react-icons/vsc";
 import MobileNavigationMenu from "./components/MobileNavigationMenu.component";
+import { hydrateRoot } from "react-dom/client";
 
 type NavLinkHeader = {
   title: string
@@ -93,11 +94,11 @@ const LogoFactory = () => {
   const navigate = useNavigate()
   return(
     <div role="button" onClick={()=>navigate(`/`)} className="flex gap-2 items-center text-[#31859c] dark:text-white font-poppins cursor-pointer">
-      <img className="w-10 h-10" alt="AcademFlow logo" src={academflowLogo} about="AcademFlow Logo" title="AcademFlow Logo"/>
+      <img className="size-7 min-3xl:size-10" alt="AcademFlow logo" src={academflowLogo} about="AcademFlow Logo" title="AcademFlow Logo"/>
       <div className="flex flex-col -space-y-2">
         <div className="flex items-baseline">
-          <span className="font-extrabold text-xl"><span className="text-2xl">{`Academ`.charAt(0)}</span>{`cadem`}</span>
-          <span className="text-xl text-[#f495b7]">Flow</span>
+          <span className="font-extrabold min-3xl:text-xl"><span className="text-xl min-3xl:text-2xl">{`Academ`.charAt(0)}</span>{`cadem`}</span>
+          <span className="min-3xl:text-xl text-[#f495b7]">Flow</span>
         </div>
         <span className="flex justify-start text-[0.60rem]">stay secured</span>
       </div>
@@ -172,21 +173,34 @@ const NavLinkHeader = ({title, subTitle, navMenuOptions}:NavLinkHeader) => {
 export default function App() {
   const fetcher = useFetcher()
   const navigation = useNavigation()
+  const { key } = useLocation()
   //Mobile Navigation menu
   const [openMobileNavigationMenu, setOpenMobileNavigationMenu]=useState(false)
   //Request a demo form state
   const [scheduleADemo, setScheduleADemo]=useState(false)
   /**Begins: Change App Theme background and colors */
-  const [isActiveThemeSkin, setIsActiveThemeSkin] = useState<string>(localStorage.theme || themeTypes[0].id)
+  const [isActiveThemeSkin, setIsActiveThemeSkin] = useState(themeTypes[0].id)
+  const [dateOfTheYear, setDateOfTheYear] = useState("")
   //Global Loading state
-    const appIsBusy = useMemo(() => navigation.state === 'loading' 
-        ? true 
-        : fetcher.state === 'loading' 
-            ? true 
-            : navigation.state == 'submitting' 
-                ? true 
-                : fetcher.state == 'submitting'
-                    ? true : false,[fetcher.state, navigation.state])
+  const appIsBusy = useMemo(() => navigation.state === 'loading' 
+      ? true 
+      : fetcher.state === 'loading' 
+          ? true 
+          : navigation.state == 'submitting' 
+              ? true 
+              : fetcher.state == 'submitting'
+                  ? true : false,[fetcher.state, navigation.state])
+  useEffect(()=>{
+    if(typeof window !== `undefined`){
+      //App current skin
+      const skinTheme:string = localStorage && localStorage.theme ? localStorage.theme : themeTypes[0].id
+      setIsActiveThemeSkin(skinTheme)
+      //Date and time
+      const theDateOfTheYear = new Date().getFullYear()
+      setDateOfTheYear(`${theDateOfTheYear}`)
+      return
+    }
+  },[])
   /**
    * 
    * @returns
@@ -211,6 +225,8 @@ export default function App() {
     activateThemeSkin();
   };
   /**Ends: Change App Theme background and colors */
+    //Close menu on page change detections
+  useMemo(() => key && setOpenMobileNavigationMenu(false),[key])
 
   return(
     <main className="font-inter w-full min-h-screen text-black">
@@ -246,9 +262,8 @@ export default function App() {
       {/* Mobile Navigation Menu*/}
       {openMobileNavigationMenu && 
         <MobileNavigationMenu 
-          openMobileNavigationMenu={openMobileNavigationMenu} 
           setOpenMobileNavigationMenu={setOpenMobileNavigationMenu}
-          callbackAction={()=>setScheduleADemo(true)} 
+          callbackAction={()=>setScheduleADemo(true)}
         />}
       {/* Schedule a Demo Modal */}
       {scheduleADemo && <RequestADemoForm closeRequestADemoFormCallToAction={()=>setScheduleADemo(false)}/>}
@@ -298,9 +313,8 @@ export default function App() {
         <div>
           <p className="w-full text-[#98abac] max-w-5xl p-5 font-medium leading-5 flex justify-center items-center text-xs text-center md:text-start">Academflow is an educational technology service designed and developed by Taacodeep Technologies. Taacodeep Technologies is duly registered with the Nigerian Corporate Affairs Commission, with RC Number XXXXX. The Academflow trademarks and all the copyrights are wholly owned by Taacodeep Technologies.</p>
         </div>
-        <section className="flex w-full justify-center items-center max-w-7xl border-t border-gray-100 p-5 gap-5 text-xs text-[#98abac]">
-          <div className="flex items-center"><PiCopyright /> 2025 AcademFlow</div>
-          <p>All rights reserved</p>
+        <section className="flex w-full max-2xs:flex-col justify-center items-center max-w-7xl border-t border-gray-100 p-5 gap-5 text-xs text-[#98abac]">
+          <div className="flex items-center whitespace-nowrap"><PiCopyright /> {dateOfTheYear} AcademFlow | All rights reserved</div>
           <ButtonSelectModern
             optionLists={themeTypes}
             activeOptionID={isActiveThemeSkin}
@@ -311,6 +325,8 @@ export default function App() {
       </footer>
     </main>);
 }
+// //Hydrating sever rendered HTML
+// hydrateRoot(document, <App/>)
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";

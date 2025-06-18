@@ -7,13 +7,16 @@
   --font-poppins: Poppins, sans-serif;
   --font-inter: Inter, Helvetica, sans-serif;
   --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --breakpoint-xs: 20rem;
+  --breakpoint-2xs: 23.4rem;
+  --breakpoint-3xs: 26.6625rem;
   --animate-slide-in-up: slide-in-up 300ms ease-in-out;
   --animate-slide-in-right: slide-in-right 300ms ease-in-out;
 
   @keyframes slide-in-up {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(50px);
     }
     to {
       opacity: 1;
