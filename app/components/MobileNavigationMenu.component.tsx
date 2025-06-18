@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router";
 import { PortalModal } from "~/portal/portal.index";
 import { ButtonHinting, ButtonMiscelleneous } from "./buttons";
 import { VscClose } from "react-icons/vsc";
-import { AiFillProduct, AiOutlineProduct } from "react-icons/ai";
+import { AiOutlineProduct } from "react-icons/ai";
 import { exploreProductsCollections } from "~/datasource/exploreProductsCollections.data.json"
 import { BsArrowReturnRight } from "react-icons/bs";
 import { GrContact } from "react-icons/gr";

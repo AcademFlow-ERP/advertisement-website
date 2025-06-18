@@ -30,7 +30,6 @@ import { useCloseOnOutsideClicks } from "./hooks";
 import { IsBusyIcon } from "./icons";
 import { VscMenu } from "react-icons/vsc";
 import MobileNavigationMenu from "./components/MobileNavigationMenu.component";
-import { hydrateRoot } from "react-dom/client";
 
 type NavLinkHeader = {
   title: string
@@ -325,8 +324,6 @@ export default function App() {
       </footer>
     </main>);
 }
-// //Hydrating sever rendered HTML
-// hydrateRoot(document, <App/>)
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";
