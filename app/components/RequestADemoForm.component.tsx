@@ -48,7 +48,7 @@ export default function RequestADemoForm({closeRequestADemoFormCallToAction}:Req
         return
     }
     return(
-        <PortalModal portalHeight="h-screen" animationClass="w-11/12 3xs:max-md:w-10/12 animate-slide-in-up">
+        <PortalModal portalHeight="h-screen" animationClass="w-11/12 3xs:max-md:w-10/12 md:max-xl:w-9/12 xl:w-7/12 animate-slide-in-up">
             <section className="w-full relative flex flex-col justify-between bg-white font-semibold text-[#31859c] p-5 gap-5">
                 <div className="flex justify-between items-center sm:max-md:px-5 md:px-20">
                     <div className="flex items-center text-lg text-gray-800 p-2 sm:p-5 bg-[#f8f9f3] rounded-2xl gap-5">
