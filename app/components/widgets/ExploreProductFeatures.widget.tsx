@@ -34,12 +34,12 @@ export default function ExploreProductFeaturesWidget({productFeatureCollections,
                                     <li onClick={()=> activeProductFeatureCallToAction(product)} className="w-full flex flex-col py-1 text-gray-400 cursor-pointer transition-all gap-5" key={product.id+index}>
                                         <span className={`flex justify-between items-center xl:gap-10 whitespace-nowrap capitalize px-4 ${activeFeature.id === product.id ?`text-gray-900`:``}`}>{product.name} {activeFeature.id === product.id ? <GoArrowRight  fontSize={26} className="text-[#31859c]"/> : <GoArrowRight  fontSize={20} className="transition-all delay-150 rotate-90"/>}</span>
                                         
-                                        <p style={{background:`${activeFeature.backgroundColor}`}} className={activeFeature.id === product.id ? `flex flex-col gap-5 font-normal animate-slide-in-up text-base p-10 lg:p-5 rounded-3xl text-gray-800`:`hidden`}>
+                                        <div style={{background:`${activeFeature.backgroundColor}`}} className={activeFeature.id === product.id ? `flex flex-col gap-5 font-normal animate-slide-in-up text-base p-10 lg:p-5 rounded-3xl text-gray-800`:`hidden`}>
                                             <div key={`${refreshKey}`} style={{background:`${activeFeature.backgroundColor}`}} className={`lg:hidden`}>
                                             <img loading="lazy" src={activeFeature.imageUrl} alt={activeFeature.subTitle}/>
                                             </div>
                                             {activeFeature.summary}
-                                        </p>
+                                        </div>
                                     </li>
                                 ))
                             }
