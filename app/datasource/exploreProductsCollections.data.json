@@ -21,7 +21,7 @@
                 "id":"staff-information-system",
                 "name":"Staff information system",
                 "subTitle":"Staff information system",
-                "summary":"Built on an advanced and scalable architecture, offers a comprehensive suite of capabilities to power your schools’ digital transformation.",
+                "summary":"Streamlined staff, smarter school. From admin to educators, everyone's connected. Secure and easy staff management.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#c7e2fe"
             },
@@ -29,7 +29,7 @@
                 "id":"student-information-system",
                 "name":"Student information system",
                 "subTitle":"Student information system",
-                "summary":"Built on an advanced and scalable architecture, offers a comprehensive suite of capabilities to power your schools’ digital transformation.",
+                "summary":"The heartbeat of your school. Comprehensive student profiles, always at your fingertips",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#ffe27c"
             },
@@ -37,7 +37,7 @@
                 "id":"student-disciplinary-management",
                 "name":"Student disciplinary management",
                 "subTitle":"Student disciplinary management",
-                "summary":"Built on an advanced and scalable architecture, offers a comprehensive suite of capabilities to power your schools’ digital transformation.",
+                "summary":"Foster a disciplined environment. Streamline incident reporting and resolution for a better school culture",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#c4b1f9"
             },
@@ -45,7 +45,7 @@
                 "id":"reports-&-analysis",
                 "name":"Reports & analytics",
                 "subTitle":"Reports & analytics",
-                "summary":"Built on an advanced and scalable architecture, offers a comprehensive suite of capabilities to power your schools’ digital transformation.",
+                "summary":"Unlock the power of your data. Transform raw data into strategic insights for parents, staff, and management.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#f57848"
             }
@@ -106,15 +106,15 @@
                 "subTitle":"Access revenue projections and payables.",
                 "summary":"Gain deep insights into your school's financial health through our comprehensive reporting tools.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
+                "backgroundColor":"#c7e2fe"
             },
             {
                 "id":"access-securely",
-                "name":"Access",
+                "name":"Access anywhere",
                 "subTitle":"Access anywhere, anytime.",
                 "summary":"Access your dashboard securely from anywhere and on any device",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
+                "backgroundColor":"#ffe27c"
             }
         ]
     },
@@ -125,71 +125,63 @@
         "softwareName":"AcademFlow Result",
         "backgroundColor":"#c4b1f9",
         "subTitle":"Say goodbye to report card headaches!",
-        "content":"Generate and analyze results automatically, hence saving time, and ensuring accuracy.",
+        "content":"Streamline your entire result process from input to analysis. Generate and analyze results automatically, hence saving time, and ensuring accuracy.",
         "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
         "pathLink":"/academic-result-report-solution",
         "productData":{
             "softwareName":"AcademFlow Result",
             "title":"Result processor and management software",
-            "description":"Generate and analyze results automatically, hence saving time, and ensuring accuracy.",
+            "description":"Generate and analyze results automatically, hence saving time, and ensuring accuracy. Streamline your entire result process from input to analysis.",
             "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png"
         },
         "productFeatures":[
             {
-                "id":"create-&-manage-invoices",
-                "name":"Collect",
-                "subTitle":"Create & manage invoices",
-                "summary":"Customize your billing experience and collect payments seamlessly",
+                "id":"result-grades",
+                "name":"Grades",
+                "subTitle":"Create promotional & borderline grading standards",
+                "summary":"Flexible grading scales? No problem! Tailor marks to your school's unique  grading standards and borderline promotional criteria seemlessly.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#c7e2fe"
             },
             {
-                "id":"instant-receipting-&-recording",
-                "name":"Receipt",
-                "subTitle":"Instant receipting and recording",
-                "summary":"Issue instant automated receipts for all invoices on the fly",
+                "id":"assign-result-committee",
+                "name":"Result committee",
+                "subTitle":"Result Committee Assigning & Collaborations",
+                "summary":"Collaborate seamlessly! Assign roles and track progress within your result committee.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#ffe27c"
             },
             {
-                "id":"payment",
-                "name":"Pay",
-                "subTitle":"Account numbers and payment links",
-                "summary":"Payments that gives everyone piece of mind",
+                "id":"vet-approve-results",
+                "name":"Vetting & Approvals",
+                "subTitle":"Streamlined checks, faster approvals. Get results out, accurately and on time",
+                "summary":"Our system ensures every result is verified and approved with precision",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#c4b1f9"
             },
             {
-                "id":"recovery",
-                "name":"Recovery",
-                "subTitle":"Manage defaults efficently",
-                "summary":"Our platform provides automated reminders and notifications to parents regarding pending payments.",
+                "id":"teachers-principal-comments",
+                "name":"Teachers/Principal Comments",
+                "subTitle":"Personalized insights for every student",
+                "summary":"Personalized comments and observations foster students' self-awareness and motivate them to excel.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#f57848"
             },
             {
-                "id":"auto-reconciliation",
-                "name":"Auto reconcile",
-                "subTitle":"Automatic reconciliation of transactions",
-                "summary":"Effortlessly reconcile your school financial transactions. Our platform automatically captures and categorizes transactions in real-time.",
+                "id":"analysis-and-reports",
+                "name":"Insights/Analysis",
+                "subTitle":"Gain valuable insights into student performance.",
+                "summary":"Unlock academic trends! Powerful analytics to pinpoint student strengths and areas for growth.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
+                "backgroundColor":"#c7e2fe"
             },
             {
-                "id":"charts-and-reports",
-                "name":"Charts & Reports",
-                "subTitle":"Access revenue projections and payables.",
-                "summary":"Gain deep insights into your school's financial health through our comprehensive reporting tools.",
+                "id":"multi-capability",
+                "name":"Multi capability",
+                "subTitle":"Multi capability and Access anywhere, anytime.",
+                "summary":"Your results, on any device. Mobile, tablet, laptop – access and manage anywhere, anytime",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
-            },
-            {
-                "id":"access-securely",
-                "name":"Access",
-                "subTitle":"Access anywhere, anytime.",
-                "summary":"Access your dashboard securely from anywhere and on any device",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
+                "backgroundColor":"#ffe27c"
             }
         ]
     },
@@ -200,71 +192,39 @@
         "softwareName":"Communication Book",
         "backgroundColor":"#f57848",
         "subTitle":"SMS, Email and In-app messaging system.",
-        "content":"Generate and analyze results automatically, hence saving time, and ensuring accuracy.",
-        "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+        "content":"Your school's hub for connection. All vital communication, in one secure place. Send single or bulk messages to parents, students, or staff with ease",
+        "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750340284/communication-book_a65idt.png",
         "pathLink":"/communication-book",
         "productData":{
             "softwareName":"AcademFlow Communication Book",
             "title":"Communication book",
-            "description":"Generate and analyze results automatically, hence saving time, and ensuring accuracy.",
-            "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png"
+            "description":"Communicate smarter, not harder. Targeted messaging to the right people, every time.",
+            "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750340284/communication-book_a65idt.png"
         },
         "productFeatures":[
             {
-                "id":"create-&-manage-invoices",
-                "name":"Collect",
-                "subTitle":"Create & manage invoices",
-                "summary":"Customize your billing experience and collect payments seamlessly",
+                "id":"connecting-everyone",
+                "name":"Connecting everyone",
+                "subTitle":"Connecting everyone",
+                "summary":"Bridge the gap. Seamlessly connect parents, students, and school management for stronger collaboration.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#c7e2fe"
             },
             {
-                "id":"instant-receipting-&-recording",
-                "name":"Receipt",
-                "subTitle":"Instant receipting and recording",
-                "summary":"Issue instant automated receipts for all invoices on the fly",
+                "id":"single-/-bulk-messaging",
+                "name":"Single/Bulk Messaging",
+                "subTitle":"Single/Bulk Messaging",
+                "summary":"Reach everyone, instantly. Send single or bulk messages to parents, students, or staff with ease",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#ffe27c"
             },
             {
-                "id":"payment",
-                "name":"Pay",
-                "subTitle":"Account numbers and payment links",
-                "summary":"Payments that gives everyone piece of mind",
+                "id":"value-proposition",
+                "name":"Value proposition",
+                "subTitle":"Overall value proposition",
+                "summary":"Foster a thriving school community. Enhance engagement and build stronger relationships.",
                 "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
                 "backgroundColor":"#c4b1f9"
-            },
-            {
-                "id":"recovery",
-                "name":"Recovery",
-                "subTitle":"Manage defaults efficently",
-                "summary":"Our platform provides automated reminders and notifications to parents regarding pending payments.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
-            },
-            {
-                "id":"auto-reconciliation",
-                "name":"Auto reconcile",
-                "subTitle":"Automatic reconciliation of transactions",
-                "summary":"Effortlessly reconcile your school financial transactions. Our platform automatically captures and categorizes transactions in real-time.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
-            },
-            {
-                "id":"charts-and-reports",
-                "name":"Charts & Reports",
-                "subTitle":"Access revenue projections and payables.",
-                "summary":"Gain deep insights into your school's financial health through our comprehensive reporting tools.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
-            },
-            {
-                "id":"access-securely",
-                "name":"Access",
-                "subTitle":"Access anywhere, anytime.",
-                "summary":"Access your dashboard securely from anywhere and on any device",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
-                "backgroundColor":"#f57848"
             }
         ]
     }
