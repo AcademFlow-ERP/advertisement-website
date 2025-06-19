@@ -228,7 +228,7 @@ export default function App() {
   useMemo(() => key && setOpenMobileNavigationMenu(false),[key])
 
   return(
-    <main className="font-inter w-full min-h-screen text-black">
+    <main className="font-inter w-full min-h-screen text-black overflow-auto">
       <span className={`${appIsBusy ? 'fixed':'hidden'} z-40 right-3 top-2 text-[#31859c]`}><IsBusyIcon/></span>
       <header className="w-full flex justify-center h-20 z-10 fixed top-0 bg-[#ffffff3a] backdrop-blur-xl">
         <div className="flex w-full justify-between items-center max-w-7xl p-5">
@@ -254,7 +254,7 @@ export default function App() {
               />
               <Link className="whitespace-nowrap" to={`https://core.academflow.com`} target="__blank"> Log in</Link>
             </div>
-            <VscMenu onClick={()=> setOpenMobileNavigationMenu(true)} className="cursor-pointer" fontSize={24}/>
+            <VscMenu onClick={()=> setOpenMobileNavigationMenu(true)} className="cursor-pointer xl:hidden" fontSize={24}/>
           </div>
         </div>
       </header>
