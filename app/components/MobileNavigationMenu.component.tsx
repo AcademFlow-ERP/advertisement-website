@@ -30,7 +30,7 @@ export default function MobileNavigationMenu({setOpenMobileNavigationMenu, callb
             portalBgColorClass=""
             animationClass="max-3xs:w-full animate-slide-in-up 3xs:animate-slide-in-right"
         >
-                <section ref={mobileMenuContainerModalRef} className={`w-full 3xs:w-[380px] h-full flex flex-col justify-between p-5`}>
+                <section ref={mobileMenuContainerModalRef} className={`w-full 3xs:w-[380px] h-full flex flex-col justify-between p-5 max-3xs:pb-8`}>
                     <div className="flex flex-col gap-3">
                         <div className="flex justify-end items-end">
                             <ButtonHinting 
