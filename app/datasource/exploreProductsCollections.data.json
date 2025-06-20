@@ -14,7 +14,7 @@
             "softwareName":"AcademFlow Core",
             "title":"Core School Management Solution",
             "description":"Automate manual tasks, eliminate errors, and securely manage staff users and students' information - all in a single platform.",
-            "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750399709/core_supported_institutions_ctaygv.png"
+            "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750340168/academflow_core_dtnhns.png"
         },
         "productFeatures":[
             {
@@ -46,7 +46,7 @@
                 "name":"Reports & analytics",
                 "subTitle":"Reports & analytics",
                 "summary":"Unlock the power of your data. Transform raw data into strategic insights for parents, staff, and management.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750409469/echarts_performance_analysis_kptrqu.png",
                 "backgroundColor":"#f57848"
             }
         ]
@@ -140,7 +140,7 @@
                 "name":"Grades",
                 "subTitle":"Create promotional & borderline grading standards",
                 "summary":"Flexible grading scales? No problem! Tailor marks to your school's unique  grading standards and borderline promotional criteria seemlessly.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750411932/academ_result_bvorkr.png",
                 "backgroundColor":"#c7e2fe"
             },
             {
@@ -148,7 +148,7 @@
                 "name":"Result committee",
                 "subTitle":"Result Committee Assigning & Collaborations",
                 "summary":"Collaborate seamlessly! Assign roles and track progress within your result committee.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750411932/academ_result_bvorkr.png",
                 "backgroundColor":"#ffe27c"
             },
             {
@@ -156,7 +156,7 @@
                 "name":"Vetting & Approvals",
                 "subTitle":"Streamlined checks, faster approvals. Get results out, accurately and on time",
                 "summary":"Our system ensures every result is verified and approved with precision",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750411065/vetting-approval_cnln3m.png",
                 "backgroundColor":"#c4b1f9"
             },
             {
@@ -164,7 +164,7 @@
                 "name":"Teachers/Principal Comments",
                 "subTitle":"Personalized insights for every student",
                 "summary":"Personalized comments and observations foster students' self-awareness and motivate them to excel.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750411932/academ_result_bvorkr.png",
                 "backgroundColor":"#f57848"
             },
             {
@@ -172,7 +172,7 @@
                 "name":"Insights/Analysis",
                 "subTitle":"Gain valuable insights into student performance.",
                 "summary":"Unlock academic trends! Powerful analytics to pinpoint student strengths and areas for growth.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750414706/result_analysis_fkcuwp.png",
                 "backgroundColor":"#c7e2fe"
             },
             {
@@ -180,7 +180,7 @@
                 "name":"Multi capability",
                 "subTitle":"Multi capability and Access anywhere, anytime.",
                 "summary":"Your results, on any device. Mobile, tablet, laptop – access and manage anywhere, anytime",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750411932/academ_result_bvorkr.png",
                 "backgroundColor":"#ffe27c"
             }
         ]
@@ -207,7 +207,7 @@
                 "name":"Connecting everyone",
                 "subTitle":"Connecting everyone",
                 "summary":"Bridge the gap. Seamlessly connect parents, students, and school management for stronger collaboration.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750413996/connecting-everyone_communication_ujay3k.png",
                 "backgroundColor":"#c7e2fe"
             },
             {
@@ -215,7 +215,7 @@
                 "name":"Single/Bulk Messaging",
                 "subTitle":"Single/Bulk Messaging",
                 "summary":"Reach everyone, instantly. Send single or bulk messages to parents, students, or staff with ease",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750340284/communication-book_a65idt.png",
                 "backgroundColor":"#ffe27c"
             },
             {
@@ -223,7 +223,7 @@
                 "name":"Value proposition",
                 "subTitle":"Overall value proposition",
                 "summary":"Foster a thriving school community. Enhance engagement and build stronger relationships.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750413667/communication-value_proportion_rhkwv2.png",
                 "backgroundColor":"#c4b1f9"
             }
         ]
