@@ -54,7 +54,7 @@ export default function OnboardOnAdvancePlatformHome(){
             <section className="w-full relative flex flex-col items-center justify-center px-5 sm:px-10 p-20 text-[#31859c] bg-[#f6f6f6]">
                 <div className="w-full flex flex-col justify-center items-center max-w-7xl 3xs:px-5 py-5 gap-10">
                     <div className="w-full flex flex-col justify-center items-center gap-2">
-                        <h1 className="text-2xl 3xs:max-sm:text-3xl sm:text-4xl max-w-4xl font-inter font-black 3xs:font-poppins 3xs:font-bold text-center px-1">Onboard an Advanced Technology Platform.</h1> 
+                        <h1 className="text-2xl 2xs:max-sm:text-3xl sm:text-4xl max-w-4xl font-inter font-black 3xs:font-poppins 3xs:font-bold text-center px-1 text-gray-700">Onboard an Advanced Technology Platform.</h1> 
                         <p className="text-base 3xs:text-lg max-w-[42rem] font-inter font-medium text-gray-600 text-center">Academflow is a focus on scalability, security, reliability, performance and ease of use; fostering your school digital transformations to the core.</p> 
                     </div>
                     <div className="w-full max-w-3xl flex flex-wrap justify-center gap-3">

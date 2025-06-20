@@ -31,7 +31,7 @@ export default function ExploreProductsHome(){
 
     return(<section className="w-full relative flex flex-col items-center justify-center p-5 xl:p-15 text-[#31859c]">
         <div className="w-full flex flex-col justify-center items-center max-w-7xl max-sm:px-0 px-10 md:max-lg:px-5 py-5 xl:gap-5 gap-10">
-          <h1 className="text-2xl 3xs:max-sm:text-3xl sm:text-4xl max-w-2xl font-inter 3xs:font-poppins font-black 3xs:font-bold text-center">One Software, All School Management Processes Simplified.</h1> 
+          <h1 className="text-2xl 2xs:max-sm:text-3xl sm:text-4xl max-w-2xl font-inter 3xs:font-poppins font-black 3xs:font-bold text-center text-gray-700">One Software, All School Management Processes Simplified.</h1> 
           <div className="w-full relative flex flex-col xl:flex-row max-xl:justify-center items-center p-2.5 min-3xs:p-10 md:max-lg:px-2 gap-10 xl:gap-20 text-gray-700 xl:text-gray-500 max-xl:bg-[#e3ecfa] max-xl:rounded-4xl">
             <nav className="max-xl:w-full flex flex-col gap-3 bg-white max-md:bg-transparent rounded-4xl py-2 px-2.5">
                 <div className="flex whitespace-normal absolute top-10 text-2xl max-w-[10rem] font-bold text-gray-600 max-xl:hidden">Explore Core Products</div>

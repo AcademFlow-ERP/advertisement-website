@@ -89,11 +89,10 @@ export default function DoMoreWithLessHome(){
             setAcademflowSuccess(theAcademflowSuccess)
         }, 15000)
     },[])
-//bg-[f3f6f7]
 
     return(<section className="w-full relative flex flex-col items-center justify-center sm:p-15 text-[#31859c] bg-[#f6f6f6]">
         <div className="max-lg:w-full flex flex-col justify-center items-center max-w-7xl max-sm:py-20 px-5 py-5 gap-8">
-            <h1 className="flex text-2xl 3xs:max-sm:text-3xl sm:text-4xl max-w-4xl font-inter 3xs:font-poppins font-black 3xs:font-bold text-center px-4">With Academflow, Do More With Less.</h1> 
+            <h1 className="flex text-2xl 2xs:max-sm:text-3xl sm:text-4xl max-w-4xl font-inter 3xs:font-poppins font-black 3xs:font-bold text-center px-4 text-gray-700">With Academflow, Do More With Less.</h1> 
             <div className="w-full flex flex-col lg:flex-row items-center gap-8 lg:gap-0">
                 <ul className="w-full lg:w-1/4 flex lg:flex-col text-gray-600 md:gap-5 overflow-x-auto overflow-y-hidden">
                     {

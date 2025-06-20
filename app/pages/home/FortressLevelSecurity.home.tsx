@@ -17,12 +17,12 @@ export default function FortressLevelSecurityHome() {
                   <h1 className="text-2xl max-sm:px-10 sm:text-4xl 3xs:font-poppins font-inter font-black 3xs:font-bold text-center md:text-start">Fortress Level Security</h1> 
                   <p className="2xs:text-xl max-sm:max-w-[20rem] max-w-4xl text-center md:text-start max-2xs:px-10">Protect your school data with our GDPR-compliant platform. We offer enterprise-grade security, multi-factor authentication, and continuous monitoring for uncompromising security.</p>
               </div>
-              <div className="flex gap-3 3xs:gap-5">
-                  <div className="flex flex-col flex-1 justify-center items-center bg-white p-3 min-3xs:p-6 rounded-4xl gap-5 3xs:gap-10 min-3xs:min-w-40">
+              <div className="w-full flex gap-5 max-3xs:px-4">
+                  <div className="flex flex-col flex-1 justify-center items-center bg-white p-3 min-3xs:p-6 rounded-4xl gap-10 w-1/2 min-3xs:min-w-40">
                       <img className="max-3xs:size-16" loading="lazy" src={gdprLogo} alt={`GDPR`} title="GDPR"/>
                       <span className="flex flex-col max-3xs:text-xs text-center text-black font-medium px-2"><b>GDPR</b> Compliant</span>
                   </div>
-                  <div className="flex flex-col flex-1 justify-between items-center bg-white p-3 min-3xs:p-5 rounded-4xl gap-5 3xs:gap-10 min-3xs:min-w-40">
+                  <div className="flex flex-col flex-1 justify-between items-center bg-white p-3 min-3xs:p-5 rounded-4xl gap-10 w-1/2 min-3xs:min-w-40">
                       <GrSecure fontSize={40} className="text-[#31859c] max-3xs:size-10"/>
                       <span className="flex flex-col max-3xs:text-xs text-center text-black font-medium px-2"><b>Multi-Factor</b> Auth</span>
                   </div>
