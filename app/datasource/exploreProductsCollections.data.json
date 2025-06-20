@@ -8,13 +8,13 @@
         "backgroundColor":"#c7e2fe",
         "subTitle":"Power your school digital strategy with a robust foundation.",
         "content":"Built on an advanced and scalable architecture, offers a comprehensive suite of capabilities to power your schools’ digital transformation.",
-        "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+        "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750340168/academflow_core_dtnhns.png",
         "pathLink":"/core-school-management-solution",
         "productData":{
             "softwareName":"AcademFlow Core",
             "title":"Core School Management Solution",
             "description":"Automate manual tasks, eliminate errors, and securely manage staff users and students' information - all in a single platform.",
-            "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png"
+            "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750399709/core_supported_institutions_ctaygv.png"
         },
         "productFeatures":[
             {
@@ -22,7 +22,7 @@
                 "name":"Staff information system",
                 "subTitle":"Staff information system",
                 "summary":"Streamlined staff, smarter school. From admin to educators, everyone's connected. Secure and easy staff management.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750399399/staff_users_mvs76w.png",
                 "backgroundColor":"#c7e2fe"
             },
             {
@@ -30,7 +30,7 @@
                 "name":"Student information system",
                 "subTitle":"Student information system",
                 "summary":"The heartbeat of your school. Comprehensive student profiles, always at your fingertips",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750399461/student_users_table_iv0kej.png",
                 "backgroundColor":"#ffe27c"
             },
             {
@@ -38,7 +38,7 @@
                 "name":"Student disciplinary management",
                 "subTitle":"Student disciplinary management",
                 "summary":"Foster a disciplined environment. Streamline incident reporting and resolution for a better school culture",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750399674/disciplinary_actions_view_e06xka.png",
                 "backgroundColor":"#c4b1f9"
             },
             {
@@ -59,13 +59,13 @@
         "softwareName":"AcademFlow Pay",
         "backgroundColor":"#ffe27c",
         "content":"A powerful, yet easy-to-use school payment management solution to transform how you collect and manage any type of fee payments.",
-        "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+        "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750402346/fee_payment_wjeqnb.png",
         "pathLink":"/fee-payments-and-management-solution",
         "productData":{
             "softwareName":"AcademFlow Pay",
             "title":"Fee payments and auto-reconciliation software",
             "description":"A powerful, easy-to-use school financial management solution to transform how you collect and manage any type of school fee payments.",
-            "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png"
+            "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750402346/fee_payment_wjeqnb.png"
         },
         "productFeatures":[
             {
@@ -73,7 +73,7 @@
                 "name":"Collect",
                 "subTitle":"Create & manage invoices",
                 "summary":"Customize your billing experience and collect payments seamlessly",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750402346/fee_payment_wjeqnb.png",
                 "backgroundColor":"#c7e2fe"
             },
             {
@@ -81,7 +81,7 @@
                 "name":"Receipt",
                 "subTitle":"Instant receipting and recording",
                 "summary":"Issue instant automated receipts for all invoices on the fly",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750402346/fee_payment_wjeqnb.png",
                 "backgroundColor":"#ffe27c"
             },
             {
@@ -89,7 +89,7 @@
                 "name":"Pay",
                 "subTitle":"Account numbers and payment links",
                 "summary":"Payments that gives everyone piece of mind",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750402346/fee_payment_wjeqnb.png",
                 "backgroundColor":"#c4b1f9"
             },
             {
@@ -97,7 +97,7 @@
                 "name":"Auto reconcile",
                 "subTitle":"Automatic reconciliation of transactions",
                 "summary":"Effortlessly reconcile your school financial transactions. Our platform automatically captures and categorizes transactions in real-time.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750402346/fee_payment_wjeqnb.png",
                 "backgroundColor":"#f57848"
             },
             {
@@ -105,7 +105,7 @@
                 "name":"Charts & Reports",
                 "subTitle":"Access revenue projections and payables.",
                 "summary":"Gain deep insights into your school's financial health through our comprehensive reporting tools.",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750402346/fee_payment_wjeqnb.png",
                 "backgroundColor":"#c7e2fe"
             },
             {
@@ -113,7 +113,7 @@
                 "name":"Access anywhere",
                 "subTitle":"Access anywhere, anytime.",
                 "summary":"Access your dashboard securely from anywhere and on any device",
-                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1742453605/student_performance_subject_analysis_pkdz95.png",
+                "imageUrl":"https://res.cloudinary.com/dfbfpnvfb/image/upload/v1750402346/fee_payment_wjeqnb.png",
                 "backgroundColor":"#ffe27c"
             }
         ]
