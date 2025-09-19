@@ -13,7 +13,8 @@ export default function WelcomeHome() {
             <p className="flex font-medium max-xs:text-[0.5rem] text-[0.6rem] max-3xs:uppercase 3xs:max-sm:text-sm sm:text-lg px-2 py-1 border max-3xs:border-white border-gray-500 rounded-3xl text-gray-600 text-center">The Most Modern Education Management Solution for Smart Schools</p>
             <div className="flex flex-col gap-3 3xs:gap-1">
               <h1 className="max-xs:text-2xl text-3xl 3xs:max-sm:text-4xl sm:text-5xl max-w-4xl font-inter 3xs:font-poppins font-black 3xs:font-extrabold text-center text-[#0a4d66]">Simplify Your School Management Functions in One intuitive Platform.</h1> 
-              <p className="font-medium text-sm 3xs:text-lg text-center">Manage schools with unmatched <b>scale</b>, <b>security</b>, <b>performance</b> and <b>ease of use.</b></p>
+              <p className="font-medium text-sm 3xs:text-lg text-center">Solution designed for modern K–12 schools, colleges, universities and training institutes</p>
+              {/* <p className="font-medium text-sm 3xs:text-lg text-center">Manage schools with unmatched <b>scale</b>, <b>security</b>, <b>performance</b> and <b>ease of use.</b></p> */}
             </div>
           </div>
           <ButtonMiscelleneous
