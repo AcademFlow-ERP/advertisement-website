@@ -5,7 +5,7 @@ import { exploreProductsCollections } from "~/datasource/exploreProductsCollecti
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Communication Book – Academflow Communication Book" },
+    { title: "AcademFlow Communication Book – Communication Book" },
     { name: "description", content: "SMS | Email | In-app messaging system" },
     { name: "theme-color", content: "#31859c"},
     { property: "og:title", content: "All-in-One School Management Software | Modern, Cloud based, Intuitive and Secure Management Solution for Smart Schools" },

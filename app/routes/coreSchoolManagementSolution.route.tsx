@@ -6,7 +6,7 @@ import { exploreProductsCollections } from "~/datasource/exploreProductsCollecti
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Core School Management Solution – Academflow Core"},
+    { title: "AcademFlow Core – Core School Management Solution"},
     { name: "description", content: "Securely manage staff users and students' information data systems" },
     { name: "theme-color", content: "#31859c" },
     { property: "og:title", content: "All-in-One School Management Software | Modern, Cloud based, Intuitive and Secure Management Solution for Smart Schools" },

@@ -5,7 +5,7 @@ import { exploreProductsCollections } from "~/datasource/exploreProductsCollecti
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Result Processor – Academflow Result" },
+    { title: "AcademFlow Result – Result Processor" },
     { name: "description", content: "Say goodbye to report card headaches. Generate and analyze results automatically, hence saving time, and ensuring accuracy." },
     { name: "theme-color", content: "#31859c"},
     { property: "og:title", content: "All-in-One School Management Software | Modern School Management Solution for Smart Schools" },

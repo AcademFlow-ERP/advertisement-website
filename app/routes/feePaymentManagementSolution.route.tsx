@@ -5,7 +5,7 @@ import { exploreProductsCollections } from "~/datasource/exploreProductsCollecti
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Collect and pay fees efficiently – Academflow Pay" },
+    { title: "AcademFlow Pay – Collect and pay fees efficiently"},
     { name: "description", content: "A powerful, easy-to-use school payment management solution to transform how you collect and manage any type of fee payments." },
     { name: "theme-color", content: "#31859c" },
     { property: "og:title", content: "All-in-One School Management Software | Modern, Cloud based, Intuitive and Secure Management Solution for Smart Schools" },
