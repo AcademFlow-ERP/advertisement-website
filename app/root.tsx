@@ -286,9 +286,9 @@ export default function App() {
             <div className="w-6/12 min-w-3xs flex flex-1 flex-col gap-4">
                 <span className="font-bold text-lg">Products</span>
                 <ul className="flex flex-col gap-2 font-medium">
-                  <li>Core Education Management Solution</li>
-                  <li>School Result Processor</li>
-                  <li>Fee Payments & Auto-Reconciliations</li>
+                  <li>AcademFlow Core</li>
+                  <li>AcademFlow Pay</li>
+                  <li>AcademFlow Result</li>
                   <li>Communication Book</li>
                 </ul>
             </div>
@@ -310,7 +310,7 @@ export default function App() {
             </div>
         </section>
         <div>
-          <p className="w-full text-[#98abac] max-w-5xl p-5 font-medium leading-5 flex justify-center items-center text-xs text-center md:text-start">Academflow is an educational technology service designed and developed by Taacodeep Technologies. Taacodeep Technologies is duly registered with the Nigerian Corporate Affairs Commission, with RC Number XXXXX. The Academflow trademarks and all the copyrights are wholly owned by Taacodeep Technologies.</p>
+          <p className="w-full text-[#98abac] max-w-5xl p-5 font-medium leading-5 flex justify-center items-center text-xs text-center md:text-start">AcademFlow is an educational service technology designed and developed by Taacodeep Technologies. Taacodeep Technologies is duly registered with the Nigerian Corporate Affairs Commission. The AcademFlow trademarks and all the copyrights are wholly owned by Taacodeep Technologies.</p>
         </div>
         <section className="flex w-full max-2xs:flex-col justify-center items-center max-w-7xl border-t border-gray-100 p-5 gap-5 text-xs text-[#98abac]">
           <div className="flex items-center whitespace-nowrap"><PiCopyright /> {dateOfTheYear} AcademFlow | All rights reserved</div>
