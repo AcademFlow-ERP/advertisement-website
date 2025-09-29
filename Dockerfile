@@ -1,5 +1,5 @@
 # =============================================================================
-# Dockerfile for academflow.com (React 19 + React Router v7 SSR)
+# Dockerfile for Main Website (academflow.com) (React 19 + React Router v7 SSR)
 # =============================================================================
 
 # Stage 1: Build the SSR app
@@ -21,6 +21,9 @@ RUN npm run build
 FROM node:20-alpine AS runner
 WORKDIR /app
 
+# Add non-root user
+RUN adduser -u 10001 -D appuser
+
 # Copy only necessary files
 COPY package.json package-lock.json ./
 RUN npm ci --omit=dev
@@ -30,8 +33,14 @@ COPY --from=build /app/build ./build
 COPY --from=build /app/dist ./dist  
 COPY --from=build /app/public ./public
 
+# Fix ownership
+RUN chown -R appuser:appuser /app
+
+# Switch to non-root
+USER appuser
+
 # Expose the port your SSR app listens on
-EXPOSE 3000
+EXPOSE 2008
 
 # Run the SSR server
 CMD ["npm", "run", "start"]
