@@ -1,22 +1,37 @@
-FROM node:20-alpine AS development-dependencies-env
-COPY . /app
+# =============================================================================
+# Dockerfile for academflow.com (React 19 + React Router v7 SSR)
+# =============================================================================
+
+# Stage 1: Build the SSR app
+FROM node:20-alpine AS build
 WORKDIR /app
+
+# Install dependencies based on lockfile
+COPY package.json package-lock.json ./
 RUN npm ci
 
-FROM node:20-alpine AS production-dependencies-env
-COPY ./package.json package-lock.json /app/
-WORKDIR /app
-RUN npm ci --omit=dev
+# Copy source code
+COPY . .
 
-FROM node:20-alpine AS build-env
-COPY . /app/
-COPY --from=development-dependencies-env /app/node_modules /app/node_modules
-WORKDIR /app
+# Build both client and server bundles
+# (adjust if you use a framework like Remix or custom build scripts)
 RUN npm run build
 
-FROM node:20-alpine
-COPY ./package.json package-lock.json /app/
-COPY --from=production-dependencies-env /app/node_modules /app/node_modules
-COPY --from=build-env /app/build /app/build
+# Stage 2: Production runtime
+FROM node:20-alpine AS runner
 WORKDIR /app
+
+# Copy only necessary files
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
+
+# Copy build output and server code from build stage
+COPY --from=build /app/build ./build
+COPY --from=build /app/dist ./dist  
+COPY --from=build /app/public ./public
+
+# Expose the port your SSR app listens on
+EXPOSE 3000
+
+# Run the SSR server
 CMD ["npm", "run", "start"]
