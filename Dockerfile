@@ -30,7 +30,6 @@ RUN npm ci --omit=dev
 
 # Copy build output and server code from build stage
 COPY --from=build /app/build ./build
-COPY --from=build /app/dist ./dist  
 COPY --from=build /app/public ./public
 
 # Fix ownership
