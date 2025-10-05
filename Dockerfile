@@ -4,6 +4,9 @@
 
 # Stage 1: Build the SSR app
 FROM node:20-alpine AS build
+
+RUN apk add --no-cache wget
+
 WORKDIR /app
 
 # Install dependencies based on lockfile
